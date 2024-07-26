@@ -2,7 +2,7 @@
   "name": "weapp-track",
   "version": "1.0.0",
   "description": "原生微信小程序埋点劫持",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
