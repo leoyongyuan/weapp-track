@@ -1,0 +1,25 @@
+{
+  "name": "weapp-track",
+  "version": "1.0.0",
+  "description": "原生微信小程序埋点劫持",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.kkgroup.cn/liaoyongyuan/weapp-track.git"
+  },
+  "keywords": [
+    "weapp"
+  ],
+  "author": "liaoyongyuan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/wechat-miniprogram": "^3.4.7",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0"
+  }
+}

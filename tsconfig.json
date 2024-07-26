@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "ESNext",   // 更改为 ESNext 或 ES2020
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "types": ["wechat-miniprogram"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
